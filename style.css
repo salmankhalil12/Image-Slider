@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    font-family: cursive;
+}
+
+.container{
+    width: 500px;
+    height: 100px;
+    background-color: slateblue;
+    border-radius:10px;
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.6);
+    min-width: 300px;
+    padding: 80px 20px;
+    margin: 5px;
+    color: white;
+    position: relative;
+}
+
+img{
+    position: absolute;
+    width: 100px;
+    border-radius: 50%;
+    left: 50%;
+    top: -50px;
+    height: 100px;
+    transform: translateX(-50px);
+
+}
+
+.userName{
+    font-size: 14px;
+    font-weight: 200 ;
+}
